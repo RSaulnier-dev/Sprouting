@@ -1,3 +1,5 @@
+Opem [https://fierce-waters-24300.herokuapp.com/index.html](https://fierce-waters-24300.herokuapp.com/index.html) to open the demo project
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
