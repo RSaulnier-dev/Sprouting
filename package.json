@@ -1,7 +1,11 @@
 {
-  "name": "untitled",
+  "name": "sprouting",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.13.7",
+    "node": "13.10.1"
+  },
   "dependencies": {
     "@date-io/date-fns": "^2.6.1",
     "@material-ui/core": "^4.9.14",
