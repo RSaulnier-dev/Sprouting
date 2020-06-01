@@ -1,0 +1,178 @@
+/*https://colorhunt.co/palette/183971*/
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+}
+
+header {
+  background-color: #a8df65;
+  margin: 0;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1{
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+Form h1, .section-title  {
+  color: #a8df65;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.roundSproutImage {
+  border: none;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  position: absolute;
+  right: 15px;
+}
+
+.sprout {
+  position: relative;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  /*width: 240px;*/
+  margin: 30px auto 20px auto;
+  /*margin: 16px;*/
+  /*float: left;*/
+}
+.sprout h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #a8df65;
+  font-family: "McLaren", cursive;
+}
+
+.sprout p .date{
+  font-weight: bold;
+}
+
+.sprout button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #efb960;
+  background: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+.sprout textarea  {
+  margin-top: 20px;
+  resize: none;
+}
+
+.sprout div.field  {
+  position: relative;
+  margin-top: 20px;
+}
+
+.sprout .progressBar  {
+  margin-top: 5px;
+}
+
+.sprout .tag {
+  position: relative;
+  /*float: right;*/
+  /*right : 10px;*/
+}
+
+.addComponent {
+  position: relative;
+  background: #fff;
+  border-radius: 7px;
+  padding: 15px;
+  margin: 30px auto 20px auto;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.DayPickerInput {
+  border-radius: 7px;
+  border-color: dimgray;
+}
+
+.roundButton {
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.reduceButton {
+  position : fixed;
+  right : 5px;
+  bottom : 40px;
+  background: #edf492;
+  color: #fff;
+}
+
+.reduceButton:hover {
+  background-color: #efb960;
+}
+
+form button.addButton {
+  position: absolute;
+  right: 30px;
+  bottom: -18px;
+  background: #edf492;
+  color: #fff;
+}
+
+form button.addButton:hover {
+  background-color: #efb960;
+}
+
+form button.eraseRemarks {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background : white;
+  /*float: right;*/
+  margin-right: 10px;
+  color: #efb960;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+.editableTexArea {
+  min-height:40px;
+}
+
+form.spout-create-form div.form-row div.space  {
+  margin-top: 10px;
+}
