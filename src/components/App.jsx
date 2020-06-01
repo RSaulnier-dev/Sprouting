@@ -83,7 +83,8 @@ function App() {
 
         <Zoom in={listSprouts.length > 0}
               className="reduceButton roundButton"
-              data-toggle="tooltip" data-placement="top"
+              data-toggle="tooltip"
+              data-placement="top"
               title={reduceListItems === false ? "Reduce" : "Expand"}>
                 <button id="reduceButton" onClick={handleReduceClick}>
                 {
